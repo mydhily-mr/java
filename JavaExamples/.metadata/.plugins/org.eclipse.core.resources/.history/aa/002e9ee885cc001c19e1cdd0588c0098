@@ -1,0 +1,15 @@
+package day9;
+
+public class Initializeiv {
+
+	public static void main(String[] args) {
+		int age;
+	    
+
+	private int age;	    public Initializeiv() {
+	        this.age = 16;
+	        System.out.println("the age is " + this.age);
+
+	}
+
+}

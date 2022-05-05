@@ -1,0 +1,24 @@
+package innerclasses;
+
+class Outside {
+    int a = 0;
+
+    Outside() {
+    }
+
+    public class Innerclass {
+        public static void main(String[] args) {
+            Outside o = new Outside();
+            Inside i = o.new Inside();
+            System.out.println(o.a);
+            System.out.println(i.b);
+        }
+    }
+
+    class Inside {
+        int b = 5;
+
+        Inside() {
+        }
+    }
+}

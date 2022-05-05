@@ -1,0 +1,8 @@
+package innerclasses;
+
+class Demo.B {
+    int j;
+
+    Demo.B() {
+    }
+}

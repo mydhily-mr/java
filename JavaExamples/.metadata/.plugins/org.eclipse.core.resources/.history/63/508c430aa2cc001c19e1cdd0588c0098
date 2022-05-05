@@ -1,0 +1,6 @@
+package day16;
+
+abstract class Bank
+{
+    abstract void roi();
+}

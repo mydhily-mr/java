@@ -1,0 +1,8 @@
+package day16;
+
+class Bike extends Vehicle
+{
+    void Start() {
+        System.out.println("Kick start");
+    }
+}

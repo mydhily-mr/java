@@ -1,0 +1,12 @@
+package day16;
+
+class Car1 extends AbsVehicle
+{
+    Car1(final AbsVehicle this$0) {
+        this.this$0 = this$0;
+    }
+    
+    void Start() {
+        System.out.println("Self start or auto start");
+    }
+}

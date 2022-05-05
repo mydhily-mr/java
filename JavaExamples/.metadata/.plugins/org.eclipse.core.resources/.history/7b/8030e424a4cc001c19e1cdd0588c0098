@@ -1,0 +1,8 @@
+package day16;
+
+abstract class AbsRule2
+{
+    abstract void fly();
+    
+    abstract void eat();
+}

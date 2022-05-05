@@ -1,0 +1,12 @@
+package day16;
+
+class GoldenEagle extends Pigeon.Eagle
+{
+    GoldenEagle(final Pigeon this$0) {
+        super(this.this$0 = this$0);
+    }
+    
+    void eat() {
+        System.out.println("Golden Eagles hunt and eat over oceans");
+    }
+}

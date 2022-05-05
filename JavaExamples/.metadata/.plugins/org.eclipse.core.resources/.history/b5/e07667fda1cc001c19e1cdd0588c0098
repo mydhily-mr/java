@@ -1,0 +1,9 @@
+package day16;
+
+class hdfc extends Bank
+{
+    @Override
+    void roi() {
+        System.out.println("Interest rate is 8.5%");
+    }
+}

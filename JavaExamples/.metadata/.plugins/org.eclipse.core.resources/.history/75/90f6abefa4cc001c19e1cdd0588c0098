@@ -1,0 +1,13 @@
+package day16;
+
+class sky
+{
+    sky(final Pigeon this$0) {
+        this.this$0 = this$0;
+    }
+    
+    void allow(final AbsRule2 bird) {
+        bird.fly();
+        bird.eat();
+    }
+}

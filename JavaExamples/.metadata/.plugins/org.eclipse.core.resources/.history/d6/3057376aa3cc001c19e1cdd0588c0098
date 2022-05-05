@@ -1,0 +1,21 @@
+package innerclasses;
+
+import innerclasses.Outside;
+
+public class Outside.Innerclass {
+    public static void main(String[] args) {
+        Outside o = new Outside();
+        Outside.Inside i = new Outside.Inside(o);
+        System.out.println(o.a);
+        System.out.println(i.b);
+    }
+}
+
+
+
+class Outside.Inside {
+    int b = 5;
+
+    Outside.Inside() {
+    }
+}
