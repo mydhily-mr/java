@@ -1,0 +1,12 @@
+package day28;
+
+import java.io.Serializable;
+
+class Bike4 implements Serializable
+{
+    Truck4 t;
+    
+    Bike4() {
+        this.t = new Truck4();
+    }
+}

@@ -1,0 +1,7 @@
+package day28;
+
+import java.io.Serializable;
+
+class Truck implements Serializable
+{
+}

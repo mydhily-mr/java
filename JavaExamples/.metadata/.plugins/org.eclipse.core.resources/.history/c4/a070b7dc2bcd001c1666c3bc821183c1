@@ -1,0 +1,12 @@
+package day28;
+
+import java.io.Serializable;
+
+class Truck4 implements Serializable
+{
+    int i;
+    
+    Truck4() {
+        this.i = 20;
+    }
+}

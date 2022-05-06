@@ -1,0 +1,5 @@
+package day24;
+
+class ChildThread1 extends Thread
+{
+}
