@@ -1,10 +1,16 @@
 package day34;
 
-public class LambdaForEach {
+import java.util.List;
+import java.util.ArrayList;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class LambdaForEach
+{
+    public static void main(final String[] args) {
+        final List<String> list = new ArrayList<String>();
+        list.add("ankit");
+        list.add("mayank");
+        list.add("irfan");
+        list.add("jai");
+        list.forEach(n -> System.out.println(n));
+    }
 }

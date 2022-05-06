@@ -1,10 +1,6 @@
 package day33;
 
-public class Sayable1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+interface Sayable1
+{
+    String say(final String p0);
 }

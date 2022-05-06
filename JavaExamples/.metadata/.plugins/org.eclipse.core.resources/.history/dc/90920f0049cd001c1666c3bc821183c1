@@ -1,0 +1,8 @@
+package day33;
+
+class LambdaExpressionExample$1 implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing " + this.val$width);
+    }
+}

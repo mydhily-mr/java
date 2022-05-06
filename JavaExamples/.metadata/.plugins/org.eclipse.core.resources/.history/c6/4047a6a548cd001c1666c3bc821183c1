@@ -1,0 +1,10 @@
+package day33;
+
+public class LambdaExpression
+{
+    public static void main(final String[] args) {
+        final int width = 20;
+        final Drawable1 d2 = () -> System.out.println("Drawing " + width);
+        d2.draw();
+    }
+}

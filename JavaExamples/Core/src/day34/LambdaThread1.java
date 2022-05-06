@@ -1,10 +1,8 @@
 package day34;
 
-public class LambdaThread1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class LambdaThread$1 implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("Thread1 is running....");
+    }
 }

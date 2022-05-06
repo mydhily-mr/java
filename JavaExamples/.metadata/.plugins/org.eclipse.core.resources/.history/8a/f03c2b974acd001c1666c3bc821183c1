@@ -1,0 +1,13 @@
+package day37;
+
+import java.util.Comparator;
+
+class MyComparator1 implements Comparator
+{
+    @Override
+    public int compare(final Object obj1, final Object obj2) {
+        final String s1 = obj1.toString();
+        final String s2 = (String)obj2;
+        return s2.compareTo(s1);
+    }
+}

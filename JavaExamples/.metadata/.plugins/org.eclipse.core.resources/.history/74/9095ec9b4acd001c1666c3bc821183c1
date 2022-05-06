@@ -1,0 +1,16 @@
+package day37;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class ReverseAlphabetOrder
+{
+    public static void main(final String[] args) {
+        final TreeSet t = new TreeSet(new MyComparator1());
+        t.add("Pratiksha");
+        t.add("Arti");
+        t.add("Neha");
+        t.add("Deepali");
+        System.out.println(t);
+    }
+}

@@ -1,0 +1,19 @@
+package day37;
+
+import java.util.Comparator;
+
+class MyComparator implements Comparator
+{
+    @Override
+    public int compare(final Object obj1, final Object obj2) {
+        final Integer i1 = (Integer)obj1;
+        final Integer i2 = (Integer)obj2;
+        if (i1 < i2) {
+            return 1;
+        }
+        if (i1 > i2) {
+            return -100;
+        }
+        return 0;
+    }
+}

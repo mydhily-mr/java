@@ -1,0 +1,9 @@
+package day33;
+
+public class LambdaNoParameter
+{
+    public static void main(final String[] args) {
+        final Sayable s = () -> "I Have nothing to say.";
+        System.out.println(s.say());
+    }
+}

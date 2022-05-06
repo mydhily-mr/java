@@ -1,0 +1,15 @@
+package day33;
+
+public class LambdaExpressionExample
+{
+    public static void main(final String[] args) {
+        final int width = 10;
+        final Drawable d = new Drawable() {
+            @Override
+            public void draw() {
+                System.out.println("Drawing " + width);
+            }
+        };
+        d.draw();
+    }
+}

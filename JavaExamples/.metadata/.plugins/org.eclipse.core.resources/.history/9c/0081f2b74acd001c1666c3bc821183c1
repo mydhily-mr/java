@@ -1,0 +1,30 @@
+package day37;
+
+class Employee implements Comparable
+{
+    String name;
+    int eid;
+    
+    Employee(final String name, final int eid) {
+        this.name = name;
+        this.eid = eid;
+    }
+    
+    @Override
+    public String toString() {
+        return String.valueOf(this.name) + "----" + this.eid;
+    }
+    
+    @Override
+    public int compareTo(final Object o) {
+        final int eid1 = this.eid;
+        final int eid2 = ((Employee)o).eid;
+        if (eid1 < eid2) {
+            return -1;
+        }
+        if (eid1 > eid2) {
+            return 1;
+        }
+        return 0;
+    }
+}

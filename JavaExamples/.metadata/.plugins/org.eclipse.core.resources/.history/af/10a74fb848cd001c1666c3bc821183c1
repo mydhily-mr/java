@@ -1,0 +1,6 @@
+package day33;
+
+interface Sayable
+{
+    String say();
+}

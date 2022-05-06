@@ -1,0 +1,6 @@
+package day34;
+
+interface Addable
+{
+    int add(final int p0, final int p1);
+}

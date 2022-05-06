@@ -1,10 +1,18 @@
 package day35;
 
-public class VectorDemo {
+import java.util.Vector;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class VectorDemo
+{
+    public static void main(final String[] args) {
+        final Vector v = new Vector();
+        System.out.println(v.capacity());
+        for (int i = 1; i <= 10; ++i) {
+            v.addElement(i);
+        }
+        System.out.println(v.capacity());
+        v.addElement("A");
+        System.out.println(v.capacity());
+        System.out.println(v);
+    }
 }

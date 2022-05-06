@@ -1,10 +1,21 @@
 package day33;
 
-public class LambdaExpression {
+@FunctionalInterface
+interface Drawable1
+{
+    public void draw();
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class LambdaExpression
+{
+    public static void main(String[] args) {
+       
+    	int width = 20;
+        
+    	//with Lambda
+        Drawable1 d2 = () ->{
+        	System.out.println("Drawing " + width);
+        };
+        d2.draw();
+    }
 }

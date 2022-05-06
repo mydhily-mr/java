@@ -1,0 +1,7 @@
+package day34;
+
+@FunctionalInterface
+interface Sayable
+{
+    String say(final String p0);
+}

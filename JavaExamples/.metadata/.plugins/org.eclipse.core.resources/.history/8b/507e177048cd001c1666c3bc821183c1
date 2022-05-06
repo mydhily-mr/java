@@ -1,0 +1,7 @@
+package day33;
+
+@FunctionalInterface
+interface Drawable1
+{
+    void draw();
+}

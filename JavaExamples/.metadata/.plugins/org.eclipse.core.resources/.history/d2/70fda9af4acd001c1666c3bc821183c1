@@ -1,0 +1,15 @@
+package day37;
+
+import java.util.Comparator;
+
+class MyComparator4 implements Comparator
+{
+    @Override
+    public int compare(final Object obj1, final Object obj2) {
+        final Employee e1 = (Employee)obj1;
+        final Employee e2 = (Employee)obj2;
+        final String s1 = e1.name;
+        final String s2 = e2.name;
+        return s1.compareTo(s2);
+    }
+}

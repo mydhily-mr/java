@@ -1,10 +1,26 @@
 package day35;
 
-public class IteratorDemo {
+import java.util.Iterator;
+import java.util.ArrayList;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class IteratorDemo
+{
+    public static void main(final String[] args) {
+        final ArrayList a = new ArrayList();
+        for (int i = 0; i <= 10; ++i) {
+            a.add(i);
+        }
+        System.out.println(a);
+        final Iterator itr = a.iterator();
+        while (itr.hasNext()) {
+            final Integer j = (Integer) itr.next();
+            if (j % 2 == 0) {
+                System.out.println(j);
+            }
+            else {
+                itr.remove();
+            }
+        }
+        System.out.println(a);
+    }
 }
