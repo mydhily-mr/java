@@ -1,0 +1,8 @@
+package day17;
+
+class InRule17
+{
+    public void add() {
+        System.out.println("inside add method");
+    }
+}

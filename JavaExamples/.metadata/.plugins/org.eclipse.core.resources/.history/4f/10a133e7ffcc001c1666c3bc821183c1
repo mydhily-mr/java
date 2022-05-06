@@ -1,0 +1,17 @@
+package day18;
+
+import java.io.File;
+
+public class Filedemo1 {
+
+	public static void main(String[] args) {
+		File f = new File("F:\\exam\\LMNO");
+        f.mkdir();
+        
+        File f2 = new File(f, "MyFile1.txt");
+        f2.createNewFile();
+        System.out.println(f.exists());
+
+	}
+
+}

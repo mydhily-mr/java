@@ -3,7 +3,8 @@ package day17;
 public class AmbiguityDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Test t = new Test();
+		t.disp();
 
 	}
 

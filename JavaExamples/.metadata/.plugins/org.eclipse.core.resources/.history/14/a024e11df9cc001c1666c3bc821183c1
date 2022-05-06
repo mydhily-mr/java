@@ -1,0 +1,6 @@
+package day17;
+
+interface InRule6
+{
+    void ROI();
+}

@@ -1,0 +1,6 @@
+package day17;
+
+interface B
+{
+    public static final int i = 200;
+}

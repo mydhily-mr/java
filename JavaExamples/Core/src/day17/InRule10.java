@@ -1,10 +1,22 @@
 package day17;
 
-public class InRule10 {
+interface InRule10
+{
+    void add();
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+interface calculate10
+{
+    void add();
+}
 
-	}
-
+class calculator10 implements InRule10, calculate10
+{
+    @Override
+    public void add() {
+        final int a = 40;
+        final int b = 50;
+        final int c = a + b;
+        System.out.println(c);
+    }
 }

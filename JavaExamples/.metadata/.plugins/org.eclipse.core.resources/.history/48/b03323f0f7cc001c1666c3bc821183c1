@@ -1,0 +1,8 @@
+package day17;
+
+interface InRule2
+{
+    void add();
+    
+    void mul();
+}

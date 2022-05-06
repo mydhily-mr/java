@@ -1,0 +1,6 @@
+package day17;
+
+interface InRule11
+{
+    void add();
+}

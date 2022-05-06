@@ -1,0 +1,10 @@
+package day17;
+
+public class InRule16Demo
+{
+	void add();	
+}
+interface B implements InRule16Demo
+{
+	void sub();
+}

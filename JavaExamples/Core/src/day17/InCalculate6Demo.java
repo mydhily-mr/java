@@ -1,10 +1,12 @@
 package day17;
 
-public class InCalculate6Demo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class InCalculate6Demo
+{
+    public static void main(final String[] args) {
+        final InCalculate6 c1;
+        final Calculators cal = (Calculators)(c1 = new Calculators());
+        c1.add();
+        c1.sub();
+        ((Calculators)c1).mul();
+    }
 }

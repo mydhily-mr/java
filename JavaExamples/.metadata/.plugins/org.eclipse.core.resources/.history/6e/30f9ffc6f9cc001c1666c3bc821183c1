@@ -1,0 +1,6 @@
+package day17;
+
+interface calculate10
+{
+    void add();
+}

@@ -1,10 +1,19 @@
 package day17;
 
-public class Ambiguity {
+interface Ambiguity
+{
+    public static final int min = 10;
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+interface calculate123
+{
+    public static final int min = 20;
+}
 
-	}
-
+class Test implements Ambiguity, calculate123
+{
+    public void disp() {
+        System.out.println(Ambiguity.min);
+        System.out.println(calculate123.min);
+    }
 }

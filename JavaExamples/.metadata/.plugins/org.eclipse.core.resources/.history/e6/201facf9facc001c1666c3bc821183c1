@@ -1,0 +1,11 @@
+package day17;
+
+class InRule12Demo
+{
+    public static void main(final String[] args) {
+        calculator12 c = new calculator12();
+        System.out.println(c.add(5, 5));
+
+    }
+}
+

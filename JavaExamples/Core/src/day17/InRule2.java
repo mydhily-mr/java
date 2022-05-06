@@ -1,10 +1,22 @@
 package day17;
 
-public class InRule2 {
+interface InRule2
+{
+    void add();
+    
+    void mul();
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+abstract class Calculator2 implements InRule2
+{
+    @Override
+    public void add() {
+        final int a = 10;
+        final int b = 20;
+        final int c = a + b;
+        System.out.println(c);
+    }
+    
+    @Override
+    public abstract void mul();
 }

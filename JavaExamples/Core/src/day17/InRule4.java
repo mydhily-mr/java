@@ -1,10 +1,8 @@
 package day17;
 
-public class InRule4 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+interface InRule4
+{
+    void add();
+    
+    void mul();
 }

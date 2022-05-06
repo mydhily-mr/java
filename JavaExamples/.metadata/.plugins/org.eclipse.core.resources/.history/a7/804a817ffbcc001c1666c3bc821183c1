@@ -1,0 +1,6 @@
+package day17;
+
+interface Ambiguity
+{
+    public static final int min = 10;
+}

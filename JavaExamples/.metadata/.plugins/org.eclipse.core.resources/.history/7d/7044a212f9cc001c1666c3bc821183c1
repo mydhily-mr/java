@@ -1,0 +1,8 @@
+package day17;
+
+class Calculate
+{
+    public void allow(final InRule6 ref) {
+        ref.ROI();
+    }
+}

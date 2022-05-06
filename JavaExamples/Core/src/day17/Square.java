@@ -1,10 +1,23 @@
 package day17;
 
-public class Square {
+import java.util.Scanner;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class Square
+{
+    float length;
+    float area;
+    
+    public void input() {
+        final Scanner s = new Scanner(System.in);
+        System.out.println("enter the length of square: ");
+        this.length = s.nextFloat();
+    }
+    
+    public void compute() {
+        this.area = this.length * this.length;
+    }
+    
+    public void disp() {
+        System.out.println("the area of the square is : " + this.area);
+    }
 }

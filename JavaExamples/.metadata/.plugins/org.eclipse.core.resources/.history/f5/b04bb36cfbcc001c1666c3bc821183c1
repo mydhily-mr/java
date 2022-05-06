@@ -1,0 +1,6 @@
+package day17;
+
+interface calculate123
+{
+    public static final int min = 20;
+}

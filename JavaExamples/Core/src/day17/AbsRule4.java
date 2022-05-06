@@ -1,10 +1,10 @@
 package day17;
 
-public class AbsRule4 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+abstract class AbsRule4
+{
+    final void fun1() {
+        System.out.println("inside parent fun1");
+    }
+    
+    abstract void fun2();
 }

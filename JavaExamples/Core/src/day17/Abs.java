@@ -1,10 +1,14 @@
 package day17;
 
-public class Abs {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+abstract class Abs
+{
+    abstract void fun1();
 }
+
+/*class Demo1 extends AbsRule4
+{
+    @Override
+    void fun1() {
+        System.out.println("inside child fun1");
+    }
+}*/

@@ -1,10 +1,21 @@
 package day17;
 
-public class InRule17 {
+class InRule17
+{
+    public void add() {
+        System.out.println("inside add method");
+    }
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+interface calculate17
+{
+    void sub();
+}
 
-	}
-
+class calculator17 extends InRule17 implements calculate17
+{
+    @Override
+    public void sub() {
+        System.out.println("inside sub method");
+    }
 }

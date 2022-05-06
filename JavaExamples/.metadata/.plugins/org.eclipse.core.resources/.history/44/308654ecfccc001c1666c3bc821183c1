@@ -1,0 +1,6 @@
+package day17;
+
+interface calculate17
+{
+    void sub();
+}

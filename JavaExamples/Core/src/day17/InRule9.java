@@ -1,10 +1,30 @@
 package day17;
 
-public class InRule9 {
+interface InRule9
+{
+    void add();
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+interface calculate2
+{
+    void sub();
+}
 
-	}
-
+class calculator9 implements InRule9, calculate2
+{
+    @Override
+    public void add() {
+        final int a = 10;
+        final int b = 15;
+        final int c = a + b;
+        System.out.println(c);
+    }
+    
+    @Override
+    public void sub() {
+        final int a = 20;
+        final int b = 3;
+        final int c = a - b;
+        System.out.println(c);
+    }
 }

@@ -1,10 +1,32 @@
 package day17;
 
-public class InCalculate6 {
+interface InCalculate6
+{
+    void add();
+    
+    void sub();
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class Calculators implements InCalculate6
+{
+    public void add() {
+        final int a = 10;
+        final int b = 20;
+        final int c = a + b;
+        System.out.println(c);
+    }
+    
+    public void sub() {
+        final int a = 20;
+        final int b = 5;
+        final int c = a - b;
+        System.out.println(c);
+    }
+    
+    public void mul() {
+        final int a = 10;
+        final int b = 20;
+        final int c = a * b;
+        System.out.println(c);
+    }
 }

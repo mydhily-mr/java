@@ -1,10 +1,23 @@
 package day17;
 
-public class A {
+interface A
+{
+    public static final int i = 100;
+}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+interface B
+{
+    public static final int i = 200;
+}
 
-	}
+interface C extends A, B
+{
+}
 
+class Test1
+{
+    public void disp() {
+        System.out.println(A.i);
+        System.out.println(B.i);
+    }
 }

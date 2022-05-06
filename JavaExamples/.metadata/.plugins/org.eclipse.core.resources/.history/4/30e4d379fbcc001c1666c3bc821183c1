@@ -1,0 +1,9 @@
+package day17;
+
+class Test implements Ambiguity, calculate123
+{
+    public void disp() {
+        System.out.println(10);
+        System.out.println(20);
+    }
+}

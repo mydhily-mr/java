@@ -1,10 +1,9 @@
 package day17;
 
-public class AbsRule4Demo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class AbsRule4Demo
+{
+    public static void main(final String[] args) {
+        final Demo1 d = new Demo1();
+        d.fun2();
+    }
 }

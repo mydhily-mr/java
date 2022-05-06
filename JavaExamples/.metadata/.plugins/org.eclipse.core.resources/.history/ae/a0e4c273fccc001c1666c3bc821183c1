@@ -1,0 +1,6 @@
+package day17;
+
+interface calculate15 extends InRule15
+{
+    void sub();
+}

@@ -1,10 +1,11 @@
 package day17;
 
-public class InRule13Demo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class InRule13Demo
+{
+    public static void main(final String[] args) {
+        final juniorCalculator jc = new juniorCalculator();
+        jc.add();
+        jc.sub();
+        jc.mul();
+    }
 }

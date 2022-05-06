@@ -1,10 +1,13 @@
 package day17;
 
-public class InRule12Demo {
+class InRule12Demo
+{
+    public static void main(final String[] args) {
+     //   calculator12 c = new calculator12();
+      //  System.out.println(c.add(5, 5));
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+    }
 }
+
+//program without error in class file folder in github 
+//InRule12,calculate12, calculator12, InRule12Demo, 

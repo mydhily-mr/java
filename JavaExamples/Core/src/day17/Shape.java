@@ -1,10 +1,14 @@
+//consider Shape & Maths
 package day17;
 
-public class Shape {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+abstract class Shape
+{
+    float area;
+    float length;
+    
+    public abstract void input();
+    
+    public abstract void compute();
+    
+    public abstract void disp();
 }

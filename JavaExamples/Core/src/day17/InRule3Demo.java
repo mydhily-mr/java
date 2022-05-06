@@ -1,10 +1,8 @@
 package day17;
 
-public class InRule3Demo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class InRule3Demo
+{
+    public static void main(final String[] args) {
+    	//InRule3 c = new InRule3Demo();	//cannot create object
+    }
 }

@@ -1,10 +1,9 @@
 package day17;
 
-public class ADemo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+class ADemo
+{
+    public static void main(final String[] args) {
+        final Test1 t = new Test1();
+        t.disp();
+    }
 }

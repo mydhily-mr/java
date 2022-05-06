@@ -1,0 +1,6 @@
+package day17;
+
+interface calculate11
+{
+    void add(final int p0, final int p1);
+}

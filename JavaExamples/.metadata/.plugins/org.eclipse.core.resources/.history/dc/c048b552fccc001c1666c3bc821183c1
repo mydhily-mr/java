@@ -1,0 +1,9 @@
+package day17;
+
+class Test1
+{
+    public void disp() {
+        System.out.println(100);
+        System.out.println(200);
+    }
+}
